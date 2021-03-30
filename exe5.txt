@@ -1,0 +1,28 @@
+//FormatterTags.html
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FormatterTags</title>
+</head>
+<body>
+<pre>
+Text in a pre element
+is displayed in a fixed-width
+font, and it preserves
+both      spaces and
+line breaks
+</pre>
+<ol type="i">
+  <li>Circle</li>
+  <li>Square</li>
+  <li>Moon</li>
+</ol>
+<ul>
+  <li>One</li>
+  <li>Two</li>
+  <li>Three</li>
+</ul> 
+</body>
+<html>

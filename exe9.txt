@@ -1,0 +1,84 @@
+//Login.html
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTML Page</title>
+</head>
+<body>
+<form action="Success.html" id=userid>
+<label for="login">Login:</label><br>
+  <input type="text" id="login" name="login"><br>
+  <label for="password">Password:</label><br>
+  <input type="password" id="password" name="password"><br>
+  <button type="submit" value="Submit">Submit</button>
+  <button type="reset" value="Reset">Reset</button><br>
+<a href="Registration.html">New User Register</a><br>
+</form>
+
+</body>
+<html>
+
+//Success.html
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTML Page</title>
+</head>
+<body>
+<h4>Successfully Login</h4>
+<a href="Login.html">Login Page</a>
+</body>
+<html>
+
+//Registration.html
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTML Page</title>
+</head>
+<body>
+<form>
+  <label for="userid">UserId:</label><br>
+  <input type="text" id="userid" name="userid"><br>
+  <label for="firstname">First name:</label><br>
+  <input type="text" id="firstname" name="firstname"><br>
+  <label for="lastname">Last name:</label><br>
+  <input type="text" id="lastname" name="lastname"><br>
+  <label for="address">Address:</label><br>
+  <textarea rows="4" cols="50" name="address"></textarea><br>
+
+  <label for="country">Choose a Country:</label><br> 
+  <select id="Country" name="country">  
+    <option value="India">India</option>  
+    <option value="England"> England </option>  
+    <option value="America"> America </option>  
+    <option value="Australia"> Australia </option>  
+    <option value="Pakistan"> Pakistan </option>  
+    <option value="China"> China </option>  
+</select> <br>
+   <label for="phone">Phone:</label><br>
+   <input type="text" id="phone" name="phone"><br> 
+
+   <label for="zipcode">Zipcode:</label><br>
+   <input type="text" id="zipcode" name="zipcode"><br>
+
+ 
+  <label for="gender">Gender:</label><br>
+  <label for="male">Male</label>
+  <input type="radio" name="gender" id="male" value="male"><br>
+  <label for="female">Female</label>
+  <input type="radio" name="gender" id="female" value="female"><br>
+  <label for="other">Other</label>
+  <input type="radio" name="gender" id="other" value="other"><br><br> 
+
+  <button type="submit" value="Submit">Submit</button>
+  <button type="reset" value="Reset">Reset</button>
+  </form>
+</body>
+<html>

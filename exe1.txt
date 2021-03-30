@@ -1,0 +1,115 @@
+//Login.html
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login</title>
+</head>
+<body>
+<center>
+   <a href="C:\Users\ELCOT\Downloads\HCL\HTML\Problem1\AddressBook.html">
+       <button>Login</button>
+     </a></center>
+</body>
+</html>
+
+//AddressBook.html
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Address Book</title>
+</head>
+<body>
+<center>
+ <a href="C:\Users\ELCOT\Downloads\HCL\HTML\Problem1\AddNewAddress.html">
+       Add new Address
+     </a>
+<br>
+
+<a href="C:\Users\ELCOT\Downloads\HCL\HTML\Problem1\AddNewAddress.html">
+        Deleting, and updating entries
+     </a>
+<br>
+<a href="C:\Users\ELCOT\Downloads\HCL\HTML\Problem1\AddNewAddress.html">
+       Searching for entries
+     </a></center>  
+<br>  
+</body>
+</html>
+
+//AddNewAddress.html
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Add Address</title>
+</head>
+<body>
+<form action="C:\Users\ELCOT\Downloads\HCL\HTML\Problem1\Submitted.html" id="usrform">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname"><br>
+  <label for="address">Address:</label><br>
+
+  <textarea rows="4" cols="50" name="address"></textarea><br>
+
+  <label for="city">City:</label><br>
+  <input type="text" id="city" name="city"><br>
+
+  <label for="PostelCode">Choose Postal Code:</label><br>
+<select id="PostelCode" name="postalcode">
+  <option value="638001">638001</option>
+  <option value="638002">638002</option>
+  <option value="638003">638003</option>
+  <option value="638004">638004</option>
+</select><br>
+
+<label for="Transport">Mode of transport:</label><br>
+<input type="radio" id="bus" name="transport" value="bus">
+<label for="bus">Bus</label><br>
+<input type="radio" id="car" name="transport" value="car">
+<label for="car">Car</label><br>
+<input type="radio" id="bicycle" name="transport" value="bicycle">
+<label for="bicycle">Bicycle</label><br>
+<input type="radio" id="other" name="transport" value="other">
+<label for="other">Other</label><br>
+
+<label for="skills">Skill Sets:</label><br>
+<input type="checkbox" id="skill1" name="skill1" value="java">
+<label for="skill1"> Java</label><br>
+<input type="checkbox" id="skill2" name="skill2" value="python">
+<label for="skill2"> Python</label><br>
+<input type="checkbox" id="skill3" name="skill3" value="c">
+<label for="skill3"> C</label><br>
+
+  <label for="email">Email:</label><br>
+  <input type="text" id="email" name="email"><br>
+
+  <label for="about">About Yourself:</label><br>
+  <input type="text" id="about" name="about"><br>
+
+ 
+  <button type="submit" value="Submit">Submit</button>
+  <button type="reset" value="Reset">Reset</button>
+
+</form>
+</body>
+</html>
+
+//Submitted.html
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Submit</title>
+</head>
+<body>
+<p>"Your details are submitted. Thank You!"</p>
+</body>
+</html>

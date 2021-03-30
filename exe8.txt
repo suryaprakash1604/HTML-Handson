@@ -1,0 +1,51 @@
+//First.html
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>First Page</title>
+</head>
+<body>
+<p>
+ <a href="Second.html">
+  Click to go second page
+ </a>
+</p>
+</body>
+<html>
+
+//Second.html
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Second Page</title>
+<style>
+div {
+  background-image: url('nature.jpg');
+}
+</style>
+</head>
+<body>
+<div>
+<p>I am ambitious and driven. I thrive on challenge and constantly set goals for myself, so I have something to strive towards. 
+I’m not comfortable with settling, and I’m always looking for an opportunity to do better and achieve greatness.</p><br>
+
+<label for="hobby">Hobbies</label><br>
+<ul>
+<a href="https:\\www.Cricket.com"><li>Cricket</li></a>
+<a href="https:\\www.football.com"><li>Football</li></a>
+<a href="https:\\www.ganaa.com"><li>Music</li></a>
+</ul><br>
+
+<a href="https://www.google.com/" target="_blank">Visit Google!</a><br>
+<a href="https://www.msn.com/" target="_blank">Visit MSN!</a><br>
+<a href="https://www.yahoo.com/" target="_blank">Visit Yahoo!</a><br>
+
+<hr style="height:15px";"width:50%">
+
+</div>
+</body>
+<html>

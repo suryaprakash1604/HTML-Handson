@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTML</title>
+<style>
+.container {
+  position: relative;
+}
+
+.topright {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 18px;
+}
+
+img { 
+  width: 100%;
+  height: auto;
+  opacity: 0.3;
+}
+</style>
+</head>
+<body style="background-color:powderblue;">
+<p>HTML stands for Hyper Text Markup Language,HTML is the standard markup language for creating Web pages</p><br>
+<p>HTML describes the structure of a Web page,HTML consists of a series of elements</p><br>
+
+<b>HTML elements tell the browser how to display the content</b><br>
+
+<hr style="height:2px;border-width:0;color:green;background-color:green"><br>
+
+<center><p>HTML is the standard markup language for creating Web pages.</p></center><br>
+
+<div class="container">
+  <img src="download.jpg" alt="Employee discussion" width="1000" height="300">
+  <div class="topright">Top Right</div>
+</div>
+
+</body>
+</html>

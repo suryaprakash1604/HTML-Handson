@@ -1,0 +1,50 @@
+//Elements.html
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Elements</title>
+<style>
+img.two {
+  height: 50%;
+  width: 50%;
+}
+</style>
+</head>
+<body>
+<i>HTML stands for Hyper Text Markup Language</i><br>
+<h1 style="color:blue;">HTML describes the structure of a Web page</h1><br>
+
+<p>Link that opens in the user's email program ,use mailto: inside the href attribute:</p>
+
+<p><a href="mailto:someone@gmail.com">Send email</a></p>
+
+<p>Sized image (in %):</p><br>
+<img class="two" src="download.jpg" width="300" height="300"><br>
+
+<p>
+ <a href="MyImages.html">
+  <img src="download.jpg">
+ </a>
+</p>
+
+</body>
+<html>
+
+//MyImages.html
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home Page</title>
+</head>
+<body>
+<img src="download.jpg" alt="Employee">
+
+<img src="download1.jpg" alt="Nature">
+
+<img src="download2.jpg" alt="Sea">
+</body>
+<html>
